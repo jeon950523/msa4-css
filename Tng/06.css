@@ -3,9 +3,13 @@ body{
 }
 ul{
   list-style-type: none;
-  line-height: 2rem;
+  
   word-spacing: 2px;
 
+}
+
+li{
+  line-height: 2rem;
 }
 
 span{

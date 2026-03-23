@@ -1,0 +1,40 @@
+.box{
+  height: 700px;
+  width: 1200px;
+}
+#header{
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+#slider{
+  height: 300px;
+  width: 100%;
+  background-color: aqua;
+
+}
+.content{
+  height: 200px;
+  width: 100%;
+  background-color: bisque;
+}
+#footer{
+  height: 100px;
+  width: 100%;
+  background-color: burlywood;
+}
+#logo{
+  width: 200px;
+  background-color: crimson;
+  height: 100%;
+}
+#info{
+  width: 400px;
+  height: 100%;
+  background-color: rgb(49, 182, 120);
+}
+#banner{
+  background-color: aqua;
+  width: 400px;
+  height: 100%;
+}

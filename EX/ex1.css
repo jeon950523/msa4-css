@@ -1,0 +1,74 @@
+.wrap{
+  width: 600px;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fff;
+}
+
+/* 상단 */
+.head {
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
+.head h1 {
+  margin: 0 0 15px;
+}
+
+.head-memo {
+  color: orange;
+  line-height: 1.6;
+}
+
+/* 안내바 */
+.headsub {
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* 공통 박스 */
+.inside,
+.inside-bottom {
+  border: 1px solid #999;
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 0px;
+}
+
+/* 제목 */
+h2 {
+  color: red;
+  margin: 30px 0 15px;
+}
+
+/* 문단 */
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* 강조 */
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+/* 고객센터 */
+.tel {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.customer {
+  font-size: 0.9rem;
+}

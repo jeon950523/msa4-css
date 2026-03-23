@@ -1,0 +1,65 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} 매 작성전에 마진과 패딩, 박스사이즈를 보더로 설정 - 브라우저 마다 다른 옵션을 0으로 만들어줌*/ 
+.wrap{
+  width: 600px;
+}
+body{
+  /* 폰트 설정 관련 및 기타 필요에 따른 스타일들 작성 */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* 여백용 */
+  padding: 5px
+}
+.head{
+  background-color: black;
+  color: aliceblue;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  
+}
+.head-memo{
+  color: orange;
+}
+.headsub{
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+.inside{
+  font-size: 1.3rem;
+  font-weight: 700px;
+  text-align: center;
+  border: solid 1px rgb(126, 126, 126);
+  padding-bottom: 20px;
+  
+}
+.inside-bottom{
+  font-size: 1.3rem;
+  font-weight: 700px;
+  text-align: center;
+  border: solid 1px rgb(126, 126, 126);
+  border-top: none;
+  padding-bottom: 20px;
+}
+.inside-title{
+  font-size: 2rem;
+  color: red;
+  font-weight: bold;
+  line-height: 100px;
+}
+.blue{
+  color: blue;
+}
+.text-small{
+  font-size: 0.8rem;
+  font-weight: 300px;
+}
+.bold{
+  font-weight: 500;
+  
+}
+/* TODO코멘트: 작업 후 추후에 해야할 일을 적어둠 */
