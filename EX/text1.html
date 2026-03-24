@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>카드 펼치기 UI</title>
+<link rel="stylesheet" href="text1.css">
+</head>
+<body>
+
+<div class="wrap">
+  <div class="sidebar">
+    <p>메뉴1</p>
+    <p>메뉴2</p>
+    <p>메뉴3</p>
+  </div>
+
+  <div class="content">
+    <!-- radio -->
+    <input type="radio" name="card" id="c1" checked>
+    <input type="radio" name="card" id="c2">
+    <input type="radio" name="card" id="c3">
+
+    <!-- cards -->
+    <div class="card">
+      <label for="c1" class="toggle"></label>
+      <div class="inner">A 영역</div>
+    </div>
+
+    <div class="card">
+      <label for="c2" class="toggle"></label>
+      <div class="inner">B 영역</div>
+    </div>
+
+    <div class="card">
+      <label for="c3" class="toggle"></label>
+      <div class="inner">C 영역</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

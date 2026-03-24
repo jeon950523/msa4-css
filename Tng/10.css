@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 700px;
+  height: 700px;
+  position: relative;
+  border: 1px solid black;
+  margin: auto;
+}
+.position1{
+  top: 70px;
+  left: 70px;
+}
+.position2{
+  top: 150px;
+  right: 150px;
+}
+.position3{
+  bottom: 90px;
+  left: 70px;
+}
+ .text{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+ }
+ /* .position4{
+  position: relative;
+  bottom: -450px;
+  left:400px;
+ } */

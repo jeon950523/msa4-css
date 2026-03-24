@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  height: 100vh;
+}
+
+/* 왼쪽 메뉴 */
+.sidebar {
+  width: 200px;
+  background: #ddd;
+  padding: 20px;
+}
+
+/* 오른쪽 영역 */
+.content {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+/* radio 숨김 */
+input {
+  display: none;
+}
+
+/* 카드 */
+.card {
+  flex: 1;
+  border: 1px solid #000;
+  position: relative;
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+
+/* 내부 내용 */
+.inner {
+  padding: 20px;
+}
+
+/* 작은 네모 버튼 */
+.toggle {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 80px;
+  background: #bbb;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* ⭐ 핵심: 선택된 카드 확장 */
+#c1:checked ~ .card:nth-of-type(1),
+#c2:checked ~ .card:nth-of-type(2),
+#c3:checked ~ .card:nth-of-type(3) {
+  flex: 3;
+}

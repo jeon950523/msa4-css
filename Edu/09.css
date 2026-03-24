@@ -1,0 +1,20 @@
+.img-float1, p{
+  float: left;
+  clear: both;
+}
+.img-float2, p{
+  /* float: right; */
+  clear: both;
+}
+ul{
+  list-style: none;
+  width: 480px;
+}
+li{
+  float: left;
+  background-color: antiquewhite;
+  width: 120px;
+  height: 80ox;
+  text-align: center;
+  line-height: 80px;
+}
