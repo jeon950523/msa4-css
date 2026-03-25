@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "맑은 고딕";
+}
+.wrap{
+  background-color: black;
+  width: 800px;
+  height: 950px;
+  margin: auto;
+
+}
+.container{
+  width: 700px;
+  height: 900px;
+  padding: 50px 20px 20px 20px;
+  border: 1px dotted black;
+  position: relative;
+  background-color: white;
+  top: 20px;
+  margin: auto;
+  
+}
+h1{
+  background-color: #124041;
+  color: azure;
+  padding: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+h2{
+  text-align: center;
+  font-style: italic;
+  font-size: 1.8rem;
+  padding: 30px 20px 70px 20px;
+}
+h3{
+  font-size: 1.5rem;
+  color: red;
+}
+ul{
+  padding: 20px 20px 20px 50px;
+  list-style: none;
+}
+li{
+  line-height: 40px;
+  font-size: 1.2rem;
+  word-spacing: 3px;
+}
+.bg-img{
+  background-image: url("../loopy3.png");
+  width: 300px;
+  height: 300px;
+  position: absolute;   
+  background-size: cover;
+  right: 2px;
+  bottom: 2px;
+  /* border: 1px solid black; */
+
+}
