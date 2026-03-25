@@ -31,7 +31,7 @@ input:checked + label{
 a:not([target]){ /*붙인이유는 a태그중에*/
   color: crimson !important;
 }
-/* :nth-child : 자식요소 선택에 사용하는 가상 선택자 */
+/* :nth-child : 자식요소 선택에 사용하는 가상 선택자 odd,even보다 숫자입력이 우선순위가 더 높음 */
 .container :nth-child(n+3):nth-child(-n+5){
   color: brown;
 }
