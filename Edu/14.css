@@ -8,5 +8,4 @@
 .required-star::before{
   color: red;
   content: "🏆";
-  
 }
