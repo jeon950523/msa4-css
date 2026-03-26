@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="14.css">
+  <link rel="shortcut icon" href="../loopy.jpg" type="image/x-icon">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <fieldset class="bg-img">
+      <legend>I want YOU!</legend>
+      <div>
+        <label for="name" class="required-star" >이름</label>
+        <input type="text" id="name" name="name" required class="boder-color">
+      </div>
+      <div>
+        <label for="age" class="required-star">나이</label>
+        <input type="number" name="age" id="age" required class="boder-color" min="20">
+      </div>
+      <div>
+        <span class="required-star">성별</span>
+        <input type="radio" name="gender" id="male">
+        <label for="male" >남자</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female" >여자</label>
+        
+      </div>
+      <div class="display">
+        <label class="request-padding" for="request">요청 사항</label>
+        <textarea name="request" id="request" rows="10" cols="30" placeholder="요청 사항 입력" class="boder-color"></textarea>
+      </div>
+      <div class="btn-hover">
+        <button type="submit">보내기</button> 
+        <span class="hover-text">내용을 다시 한번 확인해 주세요.</span>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>

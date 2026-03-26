@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  width: 500px;
+  margin: auto;
+}
+fieldset{
+  padding-left: 5px;
+}
+input, textarea{
+  background: transparent;
+  border: 1px solid black;
+}
+.required-star::before{
+  color: red;
+  content: "*";
+}
+legend{
+  font-size: 40px;
+  font-weight: bold;
+  color: #f402ff;
+}
+
+input[type="radio"]:checked + label{
+  color: red;
+}
+div{
+  padding: 20px 0px 0px 10px;
+}
+div:first-of-type {
+  padding: 0 10px;
+}
+.boder-color:focus{
+  outline: none;
+  border: 3px solid red;
+}
+.bg-img{
+  background-image: url("../loopy1.jpeg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.display{
+  display: flex;
+}
+.request-padding{
+  padding-right: 6px;
+}
+button:hover + .hover-text{
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+  visibility: visible;
+  position: absolute;
+}
+.hover-text{
+  visibility: hidden;
+}
+button{
+  padding: 0 10px;
+}
+.btn-hover{
+  position: relative;
+  padding-bottom: 10px;
+}
