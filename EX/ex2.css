@@ -1,0 +1,41 @@
+/* 1. 자식 요소에 구역 이름(Area) 붙이기 */
+.tl { grid-area: top-left; }
+.tr { grid-area: top-right; }
+.ct { grid-area: center; }
+.bl { grid-area: bottom-left; }
+.br { grid-area: bottom-right; }
+
+/* 2. 부모 요소에 3x3 지도 그리기 */
+.dice-grid {
+  display: grid;
+  width: 80%;
+  aspect-ratio: 1 / 1; /* 정사각형 비율 유지 */
+  gap: 5%;
+  margin: 0 auto;
+  width: 70vmin;
+  
+  /* 가로 세로 3칸씩 균등 분할 */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  
+  /* ⭐ 여기가 핵심! 글자로 지도 그리기 */
+  grid-template-areas:
+    "top-left    .          top-right"
+    ".           center    .        "
+    "bottom-left  .        bottom-right";
+}
+/* 이미지들이 찌그러지지 않고 꽉 차게 */
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* 부드러운 느낌을 위한 곡선 */
+}
+
+/* 각각의 위치 지정 (3x3 격자 기준) */
+.top-left { grid-column: 1; grid-row: 1; }
+.top-right { grid-column: 3; grid-row: 1; }
+.center { grid-column: 2; grid-row: 2; }
+.bottom-left { grid-column: 1; grid-row: 3; }
+.bottom-right { grid-column: 3; grid-row: 3; }
+
