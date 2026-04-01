@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="19.css">
   <title>Document</title>
 </head>
-<body>
+<body id="top">
   <div class="container">
     <!-- 사이드바시작 -->
     <div class="side-bar">
@@ -37,13 +37,56 @@
     </div>
     <!-- 메인 시작 -->
     <div class="main">
-      <div class="main-search">
-        <form action="">
-          <input type="text">
-          <button type="submit">S</button>
-        </form>
+      <form action="">
+        <div class="main-search-box">
+          <input type="search" class="input-w-80p">
+          <button type="submit" class="btn">S</button>
+        </div>
+      </form>
+      <!-- 배너 -->
+      <div class="mian-banner">
+        <h2 class="sub-title">영화</h2>
       </div>
+      <!-- 콘텐츠 -->
+       <div class="main-contents-box">
+        <div class="card">
+          <div class="card-img" style="background-image: url(../Img/짱구극장판1.jpg);"></div>
+          <p class="card-title">짱구는 못말려</p>
+          <p class="card-info">2019</p>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url(../Img/짱구2.jpg);"></div>
+          <p class="card-title">짱구는 못말려</p>
+          <p class="card-info">2019</p>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url(../Img/짱구3.jpg);"></div>
+          <p class="card-title">짱구는 못말려</p>
+          <p class="card-info">2019</p>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url(../Img/짱구4.jpg);"></div>
+          <p class="card-title">짱구는 못말려</p>
+          <p class="card-info">2019</p>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url(../Img/짱구5.jpg);"></div>
+          <p class="card-title">짱구는 못말려</p>
+          <p class="card-info">2019</p>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url(../Img/짱구6.webp);"></div>
+          <p class="card-title">짱구는 못말려</p>
+          <p class="card-info">2019</p>
+        </div>
+       </div>
     </div>
   </div>
+  <!-- TOP버튼 -->
+   
+    <button type="button">
+      <a href="#top" class="btn-top btn-large btn">TOP</a>
+    </button>
+  
 </body>
 </html>
