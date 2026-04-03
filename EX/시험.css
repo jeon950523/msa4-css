@@ -1,0 +1,104 @@
+:root{
+  /* 변수(variable) */
+  --text-main-color: #fff;
+}
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-main-color); /* 변수 사용: var() 이용*/
+}
+
+.btn{
+  background-color: #eea05f;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-middle{
+  width: 250px;
+  font-size: 1.5rem;
+}
+.btn:hover{
+  opacity: 0.6;
+  transition: all 1.5s;
+  cursor: pointer;
+}
+
+
+header{
+  background-image: url(../시험결과/img/img_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2px;
+  padding: 30px;
+}
+
+.header-title{
+  margin: 50px 0;
+  font-size: 3.5rem;
+}
+.header-info{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+/* main */
+main{
+  padding: 30px 30px 100px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.card{
+  border: 1px solid rgb(177, 175, 175);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+}
+.card-img{
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card-img-title{
+  background-color: #000000a6;
+  padding: 20px 10px;
+}
+.card-content{
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+
+footer{
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
